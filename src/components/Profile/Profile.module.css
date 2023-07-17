@@ -1,0 +1,76 @@
+.profile{
+    display:flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.avatar {
+  padding:3px;
+  display: flex;
+  max-width: 60%;
+  border-radius: 50%;
+  border: 4px solid grey;
+}
+
+.name {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.tag,
+.location {
+  margin: 8px;
+  font-size: 30px;
+  color: #8a8b8e;
+}
+
+.stats {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+}
+
+.stats > li {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  font-size: 24px;
+  text-align: center;
+  border-top: 1px solid #d3d5e3;
+  background-color: rgba(241, 241, 241, 0.833);
+}
+
+.viewsList {
+  border-left: 1px solid #d3d5e3;
+  border-right: 1px solid #d3d5e3;
+}
+
+.followersList {
+  border-radius: 0 0 0 8px;
+}
+
+.likesList {
+  border-radius: 0 0 8px;
+}
+
+.label {
+  padding-bottom: 8px;
+  color: #8a8b8e;
+}
+.quantity {
+  font-weight: bold;
+  border-radius: 8px;
+}
